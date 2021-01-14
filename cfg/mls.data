@@ -1,0 +1,6 @@
+classes = 20
+train  = /mlsteam/lab/mls_train_list.txt
+valid  = /mlsteam/lab/mls_valid_list.txt
+names = /mlsteam/data/obj.names
+backup = /mlsteam/data/model_weights/trained
+eval = coco

@@ -1,0 +1,21 @@
+command: python /mlsteam/lab/darknet_wrapper.py
+params:
+  backup: /mlsteam/data/model_weights/trained
+  batch:
+  - 16
+  learning_rate: 0.001
+  max_batches: 10000
+  repeat: 0
+  scales: .1; .1
+  steps: 400000; 450000
+  subdivisions:
+  - 16
+  train_dir: /mlsteam/data/training_data/yolo/images
+  version:
+  - tiny
+  weights_file: ''
+params_definition:
+  version:
+    options:
+    - tiny
+    - original
