@@ -731,4 +731,3 @@ public:
 #endif
 };
 ```
-# yolov4
