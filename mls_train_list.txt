@@ -1,9 +1,0 @@
-/mlsteam/data/training_data/yolo/images/000004.jpg
-/mlsteam/data/training_data/yolo/images/000002.jpg
-/mlsteam/data/training_data/yolo/images/000005.jpg
-/mlsteam/data/training_data/yolo/images/000007.jpg
-/mlsteam/data/training_data/yolo/images/000008.jpg
-/mlsteam/data/training_data/yolo/images/000006.jpg
-/mlsteam/data/training_data/yolo/images/000001.jpg
-/mlsteam/data/training_data/yolo/images/000009.jpg
-/mlsteam/data/training_data/yolo/images/000003.jpg
