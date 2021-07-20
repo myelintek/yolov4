@@ -15,6 +15,7 @@ RUN sed -i 's/archive.ubuntu.com/tw.archive.ubuntu.com/g' /etc/apt/sources.list 
     mkdir -p /mlsteam/lab && \
     apt-get update && \
     xargs apt-get install -y < /tmp/requirements.system && \
+    python3 -m pip install --upgrade pip && \
     pip3 install --no-cache-dir -r /tmp/requirements.txt && \
     bash /tmp/install-sshd.sh && \
     bash /tmp/set_terminal_dark.sh && \
