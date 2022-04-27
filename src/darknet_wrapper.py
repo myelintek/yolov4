@@ -35,7 +35,7 @@ def log_summary(msg):
     print(f'MLSTEAM_SUMMARY {msg}')
 
 def gen_file_list(dir_name, file_name="file_list.txt", exts=['jpg', 'png']):
-    with open(file_name, 'w') as f:
+    with open(file_name, 'w', encoding='utf-8', error='surrogateescape') as f:
         for filename in pathlib.Path(dir_name).rglob('*'):
             if exts and os.path.splitext(filename)[1].replace('.', '', 1) not in exts:
                 continue
