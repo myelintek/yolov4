@@ -21,7 +21,10 @@ ARCH= -gencode arch=compute_35,code=sm_35 \
       -gencode arch=compute_50,code=[sm_50,compute_50] \
       -gencode arch=compute_52,code=[sm_52,compute_52] \
 	  -gencode arch=compute_61,code=[sm_61,compute_61] \
-	  -gencode arch=compute_75,code=[sm_75,compute_75]
+	  -gencode arch=compute_61,code=[sm_70,compute_70] \
+	  -gencode arch=compute_75,code=[sm_75,compute_75] \
+	  -gencode arch=compute_80,code=[sm_80,compute_80] \
+	  -gencode arch=compute_86,code=[sm_86,compute_86]
 
 OS := $(shell uname)
 
