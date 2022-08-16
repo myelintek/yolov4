@@ -187,7 +187,7 @@ def train_run(pretrained_weights, output_dir, output_weights=None):
 
 def main():
     repeat = stparams.get_value('repeat', None)
-    output_dir = stparams.get_value('outpu_dir', 
+    output_dir = stparams.get_value('output_dir', 
                                     stparams.get_value('backup', '/mlsteam/data/yolo/model_weights/trained'))
     pretrained_weights = stparams.get_value('weights_file', None)
 
